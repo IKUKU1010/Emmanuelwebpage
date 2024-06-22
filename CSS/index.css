@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.project {
+    
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+#global-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Form container styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Label styles */
+  label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Input and textarea styles */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px 1px 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  /* Select (dropdown) styles */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add some margin between elements */
+  br {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  /* Center the form */
+  .center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  .foto-containa img {
+    height: 100%;
+    width: 100%;
+   border-radius: 50px;
+
+  }
+
+
+
+  .foto-containa {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 250px; 
+    right: 40px;
+
+    }
