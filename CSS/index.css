@@ -37,6 +37,12 @@ section {
     margin-bottom: 20px;
 }
 
+
+.hng-11 {
+  text-align: center;
+ font-size: 40px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
